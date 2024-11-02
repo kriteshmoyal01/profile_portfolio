@@ -1,6 +1,6 @@
 "use client"; // Is directive ko sabse upar rakho taaki ye client-side par render ho
 import Stairs from './Stairs'; // Ensure the path and import are correct
-import { AnimatePresence } from 'framer-motion'; // AnimatePresence import kara transition ke liye
+import { AnimatePresence, motion } from 'framer-motion'; // AnimatePresence and motion import kara transition ke liye
 import { usePathname } from 'next/navigation'; // usePathname hook import kara, jo current route dega
 import React from 'react';
 
@@ -18,6 +18,15 @@ const StairTransition = () => {
             <Stairs />
             {/* Transition overlay ke andar dikhne wala content */}
           </div>
+
+          <motion.div
+            className="h-screen w-screen fixed bg-primary top-0 pointer-events-none"
+            initial={{ opacity: 1 }}
+            animate={{
+              opacity: 0,
+              transition: { delay: 1, duration: 0.4, ease: "easeInOut" }
+            }}
+          />
         </div>
       </AnimatePresence>
     </>
