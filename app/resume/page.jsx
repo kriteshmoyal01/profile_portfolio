@@ -19,7 +19,7 @@ const info = [
   { fieldName: "Languages", fieldValue: "English, Hindi" },
   { fieldName: "Experience", fieldValue: "2+ Years" },
   { fieldName: "Skype", fieldValue: "kritesh.moyal" },
-  { fieldName: "Nationality", fieldValue: "Indian" }
+  // { fieldName: "Nationality", fieldValue: "Indian" }
 ];
 
 // about data
