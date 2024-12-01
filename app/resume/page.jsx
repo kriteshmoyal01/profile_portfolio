@@ -14,14 +14,103 @@ const info = [
   { fieldName: "Phone", fieldValue: "9571135533" },
   { fieldName: "Address", fieldValue: "NIT Raipur, Raipur, Chhattisgarh" },
   { fieldName: "Profession", fieldValue: "Senior Software Development Engineer" },
-  { fieldName: "Company", fieldValue: "Bioinformatics Company" }
+  { fieldName: "Company", fieldValue: "Bioinformatics Company" },
+  { fieldName: "Freelance", fieldValue: "Available" },
+  { fieldName: "Languages", fieldValue: "English, Hindi" },
+  { fieldName: "Experience", fieldValue: "2+ Years" },
+  { fieldName: "Skype", fieldValue: "kritesh.moyal" },
+  { fieldName: "Nationality", fieldValue: "Indian" }
 ];
 
+// about data
+const about = {
+};
 
+// exoperience 
+const experience = [
+  icon: '/assets/resume/badge.svg',
+  title: 'My Experience',
+  description: 'I have worked on various projects and have developed various web applications using React, Next.js, and Tailwind CSS. I have also contributed to the development of various projects in the bioinformatics field.',
+  startDate: '2021-08',
+  endDate: 'Present',
+ 
+  item : [
+    { 
+      compamy: ' tech solution ',
+      position: ' Senior Software Development Engineer',
+      duration: ' 2+ years',
+     },
+     { 
+      compamy: ' tech solution ',
+      position: ' Senior Software Development Engineer',
+      duration: ' 2+ years',
+     },
+     { 
+      compamy: ' tech solution ',
+      position: ' Senior Software Development Engineer',
+      duration: ' 2+ years',
+     },
+     { 
+      compamy: ' tech solution ',
+      position: ' Senior Software Development Engineer',
+      duration: ' 2+ years',
+     },
+     { 
+      compamy: ' tech solution ',
+      position: ' Senior Software Development Engineer',
+      duration: ' 2+ years',
+     },
+     { 
+      compamy: ' tech solution ',
+      position: ' Senior Software Development Engineer',
+      duration: ' 2+ years',
+     },
+  ]
+
+];
+
+// Projects data
 // Education data
 const education = [
-  { degree: "Bachelor's of Technology (B.Tech.)", field: "Computer Science & Engineering", institution: "NIT Raipur", year: "2017-2021" },
-  { degree: "Master's of Technology (M.Tech.)", field: "Bioinformatics", institution: "Bioinformatics Institute", year: "2021-2023" }
+  
+    icon: '/assets/resume/badge.svg',
+    title: 'My Experience',
+    description: 'I have worked on various projects and have developed various web applications using React, Next.js, and Tailwind CSS. I have also contributed to the development of various projects in the bioinformatics field.',
+    startDate: '2021-08',
+    endDate: 'Present',
+   
+    item : [
+      { 
+        compamy: ' tech solution ',
+        position: ' Senior Software Development Engineer',
+        duration: ' 2+ years',
+       },
+       { 
+        compamy: ' tech solution ',
+        position: ' Senior Software Development Engineer',
+        duration: ' 2+ years',
+       },
+       { 
+        compamy: ' tech solution ',
+        position: ' Senior Software Development Engineer',
+        duration: ' 2+ years',
+       },
+       { 
+        compamy: ' tech solution ',
+        position: ' Senior Software Development Engineer',
+        duration: ' 2+ years',
+       },
+       { 
+        compamy: ' tech solution ',
+        position: ' Senior Software Development Engineer',
+        duration: ' 2+ years',
+       },
+       { 
+        compamy: ' tech solution ',
+        position: ' Senior Software Development Engineer',
+        duration: ' 2+ years',
+       },
+    ]
 ];
 
 // Experience data
