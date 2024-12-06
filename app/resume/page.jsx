@@ -99,7 +99,7 @@ const Resume = () => {
           ))}
         </ul>
       </section>
-    </div>
+      {/* <div className="flex justify-center items-center mt-8"> */}
   );
 };
 
